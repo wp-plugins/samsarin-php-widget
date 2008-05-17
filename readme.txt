@@ -45,7 +45,3 @@ If it is enabled and you can see it on the left hand side of the Design | Widget
 1. Backup your database.
 2. Go to Settings | Samsarin PHP
 3. If you know the name of the widget that is not working, use the "Reset" option. If you do not know which widget is failing, use the "Reset All" option. __This will reset the widget to its initial, empty state.__
-
-= What do I do if I need help? =
-
-If you're experiencing trouble with this widget, please post a comment on the [official plugin site](http://blog.samsarin.com/samsarin-php-widget/) or [contact me](http://blog.samsarin.com/contact).
