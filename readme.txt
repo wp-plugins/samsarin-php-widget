@@ -25,6 +25,16 @@ _Warning: This widget provides great flexibility in customizing your sidebar. It
 2. Copy `samsarin-php-widget.php` to the `/wp-content/plugins` directory.
 3. Login to your admin console, go to `Plugins`, and enable the `Samsarin PHP Widget`.
 
+== Uage ==
+
+1. Login to your admin console.
+2. Go to Design | Widgets.
+3. Scroll towards the bottom of the page and look for the `Samsarin PHP Widgets` section. Here you can select the number of widgets you'd like for your website (default is 1).
+4. Click the `Add` link on the Samsarin PHP widget to add it to your sidebar.
+5. Click `Edit` to set the text for the title and the body.
+
+You may enter PHP code both in the title and the body.
+
 == Frequently Asked Questions ==
 
 = What versions of Wordpress are supported? =
