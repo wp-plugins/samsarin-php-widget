@@ -13,11 +13,9 @@ Author URI:     http://samsarin.com
 1.0   Initial Release
 
 A text widget with support for including PHP.
-Copyright (C) 2007-2008 Chris Pettitt (http://samsarin.com). All rights reserved.
 
-This software is free to use. It may be redistributed provided the
-copyright is included. The author provides this software with no warranty and
-cannot be held liable for any results occurring from its use or misuse.
+This plugin uses the MIT License. See the LICENSE file included
+with this distribution for more details.
 */
 
 // Configuration
