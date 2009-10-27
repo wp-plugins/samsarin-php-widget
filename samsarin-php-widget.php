@@ -4,10 +4,11 @@ Plugin Name:    Samsarin PHP Widget
 Plugin URI:     http://samsarin.com/samsarin-php-widget
 Description:    A text widget with support for including PHP.
 Author:         Chris Pettitt
-Version:        2.0b1
+Version:        2.1
 Author URI:     http://samsarin.com
 
-2.0b1 Add support for WP 2.8, drop support for anything earlier.
+2.1   Add support for widget_text and widget_title filters.
+2.0   Add support for WP 2.8, drop support for anything earlier.
 1.3.2 Add an options panel to reset all Samsarin PHP widgets.
 1.2   Increase max widgets to 25
 1.1   Workaround bug widget compatibility bug in WP 2.2
@@ -32,9 +33,9 @@ class SamsarinPhpWidget extends WP_Widget {
     function widget($args, $instance) {     
         extract($args);
 
-        $title = $instance['title'];
+        $title = apply_filters('widget_title', $instance['title']);
 
-        $body = $instance['body'];
+        $body = apply_filters('widget_text', $instance['body']);
         if (empty($body)) {
             $body = '&nbsp;';
         }

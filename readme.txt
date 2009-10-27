@@ -3,7 +3,7 @@ Contributors: samsarin
 Tags: php, widget
 Requires at least: 2.1
 Tested up to: 2.8
-Stable tag: 1.3.2
+Stable tag: 2.1
 
 A plugin that adds that ability to insert any PHP code into a sidebar widget.
 
@@ -28,10 +28,10 @@ _Warning: This widget provides great flexibility in customizing your sidebar. It
 == Uage ==
 
 1. Login to your admin console.
-2. Go to Design | Widgets.
-3. Scroll towards the bottom of the page and look for the `Samsarin PHP Widgets` section. Here you can select the number of widgets you'd like for your website (default is 1).
-4. Click the `Add` link on the Samsarin PHP widget to add it to your sidebar.
-5. Click `Edit` to set the text for the title and the body.
+2. Go to Appearance | Widgets.
+3. Select and drag "Samsarin PHP Widget" to your Sidebar list.
+4. Click the down arrow to edit the widget.
+5. When done editing, click Save.
 
 You may enter PHP code both in the title and the body.
 
