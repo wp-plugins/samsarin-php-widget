@@ -25,7 +25,7 @@ _Warning: This widget provides great flexibility in customizing your sidebar. It
 2. Copy `samsarin-php-widget.php` to the `/wp-content/plugins` directory.
 3. Login to your admin console, go to `Plugins`, and enable the `Samsarin PHP Widget`.
 
-== Uage ==
+== Usage ==
 
 1. Login to your admin console.
 2. Go to Appearance | Widgets.
