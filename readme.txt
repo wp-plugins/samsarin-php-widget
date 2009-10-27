@@ -3,7 +3,7 @@ Contributors: samsarin
 Tags: php, widget
 Requires at least: 2.1
 Tested up to: 2.8
-Stable tag: 2.1
+Stable tag: 1.3.2
 
 A plugin that adds that ability to insert any PHP code into a sidebar widget.
 
