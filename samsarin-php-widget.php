@@ -4,9 +4,10 @@ Plugin Name:    Samsarin PHP Widget
 Plugin URI:     http://blog.samsarin.com/samsarin-php-widget
 Description:    A text widget with support for including PHP.
 Author:         Chris Pettitt
-Version:        1.3.2
+Version:        1.3.3
 Author URI:     http://samsarin.com
 
+1.3.3 Properly close <strong> tag in control panel.
 1.3.2 Add an options panel to reset all Samsarin PHP widgets.
 1.2   Increase max widgets to 25
 1.1   Workaround bug widget compatibility bug in WP 2.2
@@ -118,7 +119,7 @@ function spw_control($number) {
         <dd>
             <input style="width: 350px; height: 50px;" name="samsarin_widget_title_<?php echo "$number"; ?>" type="text" value="<?php echo $title; ?>" />
         </dd>
-        <dt><strong>Body<strong></dt>
+        <dt><strong>Body</strong></dt>
         <dd>
             <textarea style="width: 350px; height: 200px;" name="samsarin_widget_body_<?php echo "$number"; ?>"><?php echo $body; ?></textarea>
         </dd>
