@@ -3,7 +3,7 @@ Contributors: samsarin
 Tags: php, widget
 Requires at least: 2.1
 Tested up to: 2.8
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 
 A plugin that adds that ability to insert any PHP code into a sidebar widget.
 
@@ -41,7 +41,7 @@ You may enter PHP code both in the title and the body.
 
 The current version is supported with Wordpress 2.8+.
 
-Version 1.3.2 of the plugin is supported with Wordpress 2.1 - 2.7 and has been tested with Wordpress 2.1, 2.2, 2.3, and 2.5.1.
+Version 1.3.3 of the plugin is supported with Wordpress 2.1 - 2.7 and has been tested with Wordpress 2.1, 2.2, 2.3, and 2.5.1.
 
 = What do I do if Samsarin PHP Widget does not show up in the widget admin console? =
 
